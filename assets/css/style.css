@@ -12,22 +12,26 @@
 /* #viewport-border */
 /* ------------------------ */
 #top, #bottom {
- height: 8px;
- position: fixed;
- left: 0;
- right: 0;
- display: block;
- background-color: #544d60;
- z-index: 30
+  height: 8px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: #544d60;
+  z-index: 30;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 #left, #right {
- width: 8px;
- position: fixed;
- top: 0;
- bottom: 0;
- display: block;
- background-color: #544d60;
- z-index: 50;
+  width: 8px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  display: block;
+  background-color: #544d60;
+  z-index: 50;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 #top {
  top: 20px;
@@ -657,15 +661,15 @@ html {
   border-bottom: 1px dotted;
 }
 
-/*.page-body {
+.page-body {
   max-width: 760px;
   margin: auto;
-}*/
-/*.page-body img {
+}
+.page-body img {
   min-width: 100%;
   margin-bottom: 24px;
   border-radius: 5px;
-}*/
+}
 /* - Post Share - */
 .post-share {
   margin-bottom: 48px;
@@ -2040,8 +2044,8 @@ a#slide {
   display: block;
   width: 40px;
   height: 40px;
-  top: 10px;
-  left: 10px;
+  top: 40px;
+  left: 40px;
   text-align: center;
   font: 22px/40px "icon";
   color: #fff;
