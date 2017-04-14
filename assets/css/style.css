@@ -620,11 +620,15 @@ html {
   border-bottom: 1px dotted;
 }
 
-.page-body img {
-  max-width: 100%;
+/*.page-body {
+  max-width: 760px;
+  margin: auto;
+}*/
+/*.page-body img {
+  min-width: 100%;
   margin-bottom: 24px;
   border-radius: 5px;
-}
+}*/
 /* - Post Share - */
 .post-share {
   margin-bottom: 48px;
