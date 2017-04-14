@@ -7,6 +7,43 @@
 @import url(http://fonts.googleapis.com/css?family=Sacramento);
 
 
+
+/* ------------------------ */
+/* #viewport-border */
+/* ------------------------ */
+#top, #bottom {
+ height: 8px;
+ position: fixed;
+ left: 0;
+ right: 0;
+ display: block;
+ background-color: #544d60;
+ z-index: 30
+}
+#left, #right {
+ width: 8px;
+ position: fixed;
+ top: 0;
+ bottom: 0;
+ display: block;
+ background-color: #544d60;
+ z-index: 50;
+}
+#top {
+ top: 20px;
+}
+#bottom {
+ bottom: 20px;
+}
+#left {
+ left: 20px;
+}
+#right {
+ right: 20px;
+}
+
+
+
 /* ------------------------ */
 /* GENERAL TYPOGRAPHY RULES */
 /* ------------------------ */
