@@ -604,6 +604,9 @@ html {
   position: relative;
   z-index: 1;
 }
+#main .row {
+  margin-bottom: 20px;
+}
 
 @media (max-width: 480px) {
   .brand img {
@@ -665,11 +668,7 @@ html {
   max-width: 760px;
   margin: auto;
 }
-.page-body img {
-  min-width: 100%;
-  margin-bottom: 24px;
-  border-radius: 5px;
-}
+
 /* - Post Share - */
 .post-share {
   margin-bottom: 48px;
@@ -904,7 +903,6 @@ html {
 /* THEME FONTS */
 /* ----------- */
 body {
-  font-family: 'Merriweather', serif;
   font-size: 18px;
   line-height: 1.71428571;
 }
